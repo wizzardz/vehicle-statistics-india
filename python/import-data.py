@@ -34,7 +34,10 @@ if not len(sys.argv) > 1:
   root_folder = os.path.dirname(os.path.realpath(__file__))
 
 # need to get these folder name programatically
-state_folders = ["Andhra Pradesh"]
+state_folders = ["Andhra Pradesh", "Arunachal Pradesh", "Goa", "Gujarat", "Haryana", "Himachal Pradesh", "Jammu and Kashmir", "Jharkhand", "Karnataka",
+                 "Kerala", "Lakshadweep", "Madhya Pradesh", "Maharashtra", "Manipur", "Meghalaya", "Mizoram", "Nagaland", "Odisha", "Puducherry", "Punjab",
+                 "Andaman and Nicobar Islands", "Assam", "Bihar", "Chandigarh", "Chhattisgarh", "Dadra And Nagar Haveli", "Daman and Diu", "Delhi",
+                 "Rajasthan", "Sikkim", "Tamil Nadu", "Tripura", "Uttar Pradesh", "Uttarakhand", "West Bengal"]
 
 # initialise the list for saving the data
 data_set = []  # json.dumps([])
@@ -98,7 +101,7 @@ for states in state_folders:
           new_data["Category"] = vechile_data[1]
           new_data["VehicleType"] = vechile_data[2]
 
-          # now start filling the details of vehicle details
+          # now start filling the details of vehicle
           for data_index in range(DATA_START_INDEX, field_count - offset_index):
             vechile_stat_data = copy_data(
                 new_data, new_vehicle_pattern.search(field_data[data_index]["label"]).group())

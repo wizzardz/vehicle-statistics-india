@@ -1,0 +1,71 @@
+{
+  "fields": [{
+    "id": "a",
+    "label": "Type",
+    "type": "string"
+  }, {
+    "id": "b",
+    "label": "Vehicles Category",
+    "type": "string"
+  }, {
+    "id": "c",
+    "label": "Type of Vehicles",
+    "type": "string"
+  }, {
+    "id": "d",
+    "label": "Newly registered-2006-07",
+    "type": "string"
+  }, {
+    "id": "e",
+    "label": "Newly registered-2007-08",
+    "type": "string"
+  }, {
+    "id": "f",
+    "label": "Newly registered-2008-09",
+    "type": "string"
+  }, {
+    "id": "g",
+    "label": "Total registered as on 2007",
+    "type": "string"
+  }, {
+    "id": "h",
+    "label": "Total registered as on 2008",
+    "type": "string"
+  }, {
+    "id": "i",
+    "label": "Total registered as on 2009",
+    "type": "string"
+  }],
+  "data": [
+    ["Transport", "I. Multiaxled \/ Articulated Vehicles", "Multiaxled \/ Articulated Vehicles", "1054", "1420", "1018", "5434", "6854", "7872"],
+    ["Transport", "II. Trucks & Lorries", "Trucks & Lorries", "20914", "20607", "13664", "191269", "211879", "225543"],
+    ["Transport", "III. Light Motor Vehicles (Goods)", "Four Wheelers", "18808", "22170", "20123", "100667", "122838", "142961"],
+    ["Transport", "III. Light Motor Vehicles (Goods)", "Three Wheelers", "10420", "11965", "8705", "31115", "43080", "51785"],
+    ["Transport", "Total-III. Light Motor Vehicles (Goods)", "Total Light Motor Vehicles (Goods)", "29228", "34135", "28828", "131782", "165918", "194746"],
+    ["Transport", "IV. Buses", "Stage carriages", "1212", "3241", "3144", "21006", "22250", "23394"],
+    ["Transport", "IV. Buses", "Contract carriages", "435", "575", "561", "3620", "4195", "4756"],
+    ["Transport", "IV. Buses", "Private service vehicles", "267", "235", "265", "4570", "4805", "5070"],
+    ["Transport", "IV. Buses", "Other buses", "1823", "2067", "2370", "16163", "18230", "20600"],
+    ["Transport", "Total-IV. Buses", "Total Buses", "3737", "6118", "6340", "45359", "49480", "53820"],
+    ["Transport", "V. Taxis", "Motor cabs", "8747", "10176", "8890", "56115", "66291", "75181"],
+    ["Transport", "V. Taxis", "Maxi cabs", "1144", "2415", "2514", "15444", "17859", "20373"],
+    ["Transport", "V. Taxis", "Other taxis", "0", "0", "0", "0", "0", "0"],
+    ["Transport", "Total- V. Taxis", "Total Taxis", "9891", "12591", "11404", "71559", "84150", "95554"],
+    ["Transport", "VI. Light Motor Vehicles (Passengers)", "Three seaters", "0", "0", "0", "0", "0", "0"],
+    ["Transport", "VI. Light Motor Vehicles (Passengers)", "Four to six seaters", "44755", "48169", "58195", "275124", "323293", "381488"],
+    ["Transport", "Total- VI. Light Motor Vehicles (Passengers)", "Total Light Motor Vehicles (Passengers)", "44755", "48169", "58195", "275124", "323293", "381488"],
+    ["Transport", "VII. Motor cycles on hire", "Motor cycles on hire", "0", "0", "0", "0", "0", "0"],
+    ["Transport", "Total Transport(I to VII)", "Total Transport", "113959", "128474", "126303", "720527", "841574", "959023"],
+    ["Non Transport", "I. Two wheelers", "Scooters", "0", "0", "0", "0", "0", "0"],
+    ["Non Transport", "I. Two wheelers", "Mopeds", "288", "1056", "1350", "91226", "92282", "93632"],
+    ["Non Transport", "I. Two wheelers", "Motor cycles", "505175", "574410", "588457", "4595317", "5169804", "5758261"],
+    ["Non Transport", "Total-I. Two wheelers", "Total Two wheelers", "505463", "575466", "589807", "4686543", "5262086", "5851893"],
+    ["Non Transport", "II. Cars", "Cars", "73493", "83436", "82828", "535649", "619092", "701920"],
+    ["Non Transport", "III. Jeeps", "Jeeps", "1013", "976", "1018", "27500", "28476", "29494"],
+    ["Non Transport", "IV. Omni buses", "Omni buses", "3200", "3237", "3462", "38722", "41959", "45421"],
+    ["Non Transport", "V. Tractors", "Tractors", "18593", "28462", "29401", "184441", "212904", "242305"],
+    ["Non Transport", "VI. Trailers", "Trailers", "17094", "26318", "25336", "167206", "193524", "218860"],
+    ["Non Transport", "VII. Other vehicles not covered", "Other vehicles not covered", "1504", "2063", "1701", "6268", "8331", "10032"],
+    ["Non Transport", "Total Non Transport (I to VII)", "Total Non-Transport", "620360", "719958", "733553", "5646329", "6366372", "7099925"]
+  ]
+}
